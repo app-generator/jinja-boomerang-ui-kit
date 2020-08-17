@@ -14,7 +14,6 @@
 
 @mixin caret-right {
   border-top: $caret-width solid transparent;
-  border-right: 0;
   border-bottom: $caret-width solid transparent;
   border-left: $caret-width solid;
 }
@@ -29,8 +28,10 @@
   @if $enable-caret {
     &::after {
       display: inline-block;
-      margin-left: $caret-spacing;
-      vertical-align: $caret-vertical-align;
+      width: 0;
+      height: 0;
+      margin-left: $caret-width * .85;
+      vertical-align: $caret-width * .85;
       content: "";
       @if $direction == down {
         @include caret-down;
@@ -48,8 +49,10 @@
 
       &::before {
         display: inline-block;
-        margin-right: $caret-spacing;
-        vertical-align: $caret-vertical-align;
+        width: 0;
+        height: 0;
+        margin-right: $caret-width * .85;
+        vertical-align: $caret-width * .85;
         content: "";
         @include caret-left;
       }

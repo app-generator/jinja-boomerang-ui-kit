@@ -2,12 +2,6 @@
 //
 // Used in conjunction with global variables to enable certain theme features.
 
-// Vendor
-@import "vendor/rfs";
-
-// Deprecate
-@import "mixins/deprecate";
-
 // Utilities
 @import "mixins/breakpoints";
 @import "mixins/hover";
@@ -42,6 +36,7 @@
 
 // // Layout
 @import "mixins/clearfix";
+// @import "mixins/navbar-align";
 @import "mixins/grid-framework";
 @import "mixins/grid";
 @import "mixins/float";
