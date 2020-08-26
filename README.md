@@ -1,4 +1,4 @@
-# [Jinja Template - Boomerang UI](https://jinja-template-boomerang-uikit.appseed.us/)
+# [Jinja Template](https://github.com/app-generator/jinja-template) - Boomerang UI
 
 > Template Theme provided by [AppSeed](https://appseed.us) - Features:
 
@@ -183,4 +183,4 @@ Visit `http://localhost:8001` in your browser. The app should be up & running.
 <br />
 
 ---
-[Jinja Template - Boomerang UI](https://jinja-template-boomerang-uikit.appseed.us/) - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
+[Jinja Template](https://github.com/app-generator/jinja-template) Boomerang UI - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
